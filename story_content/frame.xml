@@ -1,0 +1,1250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns00000000101" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
+  <layouts>
+    <layout name="npnxnanbsnfns00000000101" font="Open Sans" controllayout="npnxnanbsnfns00000000101" colorscheme="pxabnsnfns00000000101" string_table="pxabnsnfns00000000101" />
+    <layout name="pxabnsnfns00000000101" font="Open Sans" controllayout="pxabnsnfns00000000101" colorscheme="pxabnsnfns00000000101" string_table="pxabnsnfns00000000101" />
+    <layout name="npxnabnsnfns00000000101" font="Open Sans" controllayout="npxnabnsnfns00000000101" colorscheme="pxabnsnfns00000000101" string_table="pxabnsnfns00000000101" />
+    <layout name="npnxnanbnsnfns00000000101" font="Open Sans" controllayout="npnxnanbnsnfns00000000101" colorscheme="pxabnsnfns00000000101" string_table="pxabnsnfns00000000101" />
+    <layout name="pxabnsnfns00000000100" font="Open Sans" controllayout="pxabnsnfns00000000100" colorscheme="pxabnsnfns00000000101" string_table="pxabnsnfns00000000101" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="true">
+            <options>
+              <option name="title_text" value="Hemostasis part1" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="false">
+            <options />
+          </option>
+          <option name="sidebar_enabled" value="false">
+            <options>
+              <option name="sidebarpos" value="left" />
+              <option name="closed" value="false" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="resources" value="false" group="linkright" />
+              <listitem name="outline" value="true" group="sidebar" />
+              <listitem name="glossary" value="false" group="sidebar" />
+              <listitem name="transcript" value="false" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="true">
+            <options>
+              <option name="time_format" value="remaining" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="false" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="false" />
+          <option name="enableresultsicons" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="true" />
+          <option name="seekbar" value="false">
+            <options>
+              <option name="readonly" value="false" />
+              <option name="readonlyOnce" value="false" />
+            </options>
+          </option>
+          <option name="pauseplay" value="false" />
+          <option name="replay" value="false" />
+          <option name="search" value="false" />
+          <option name="closed_captions" value="true">
+            <options>
+              <option name="font" value="Open Sans" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns00000000101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns00000000101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns00000000101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns00000000101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns00000000100">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="pxabnsnfns00000000101">
+      <color_group name="infopanel">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C2280" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x232531" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="title_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanelpopup">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x838CA8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x414555" alpha="100" stop="0" />
+                <color rgb="0x2E3139" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bio_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00D7FF" alpha="100" stop="0" />
+                <color rgb="0x00ABFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+                <color rgb="0xFCCC2A" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x414555" alpha="100" stop="0" />
+                <color rgb="0x2E3139" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4F5669" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4A4E60" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2B2F3C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x232531" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x232531" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x56596D" alpha="100" stop="0" />
+                <color rgb="0x2A2C37" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A2C37" alpha="100" stop="0" />
+                <color rgb="0x56596D" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x484B5B" alpha="100" stop="0" />
+                <color rgb="0x313441" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x232531" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x676E8B" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x838CA8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x515669" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x373B47" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x676E8B" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x515669" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x404656" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x404656" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x636979" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x5E6578" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x373B47" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x838CA8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2F323C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x525666" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2F323C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x373B47" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x232531" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x838CA8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x474D5E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x377CB6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x343744" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x272A36" alpha="100" stop="0" />
+                <color rgb="0x474C57" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x232531" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x484B5B" alpha="100" stop="0" />
+                <color rgb="0x323542" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xEB9471" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x484B5B" alpha="100" stop="0" />
+                <color rgb="0x313441" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x434758" alpha="100" stop="0" />
+                <color rgb="0x232531" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x232531" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x5B6076" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x232531" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x303341" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585D6E" alpha="100" stop="0" />
+                <color rgb="0x494D5A" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x474C5E" alpha="100" stop="0" />
+                <color rgb="0x3A3E4D" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x565C72" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x444859" alpha="100" stop="0" />
+                <color rgb="0x4B5062" alpha="100" stop="128" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2F323B" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x474D5E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x232531" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x838CA8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2BC400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2F323C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x232531" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x232531" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x56596D" alpha="100" stop="0" />
+                <color rgb="0x2A2C37" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A2C37" alpha="100" stop="0" />
+                <color rgb="0x56596D" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x484B5B" alpha="100" stop="0" />
+                <color rgb="0x313441" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x42454C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2B2F3C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4A4E60" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3D4150" alpha="100" stop="0" />
+                <color rgb="0x2B2E36" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4D5365" alpha="100" stop="0" />
+                <color rgb="0x4D5365" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x414555" alpha="100" stop="0" />
+                <color rgb="0x2E3139" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x414555" alpha="100" stop="0" />
+                <color rgb="0x2E3139" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x303341" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x535767" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x494E62" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x565C72" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4B5062" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="pxabnsnfns00000000101">
+      <string id="acc_active">active</string>
+      <string id="check_include">Check to include</string>
+      <string id="clear">Clear and return to menu</string>
+      <string id="close">Close</string>
+      <string id="acc_closed_captions">Closed captions. Press the spacebar to toggle captions on and off.</string>
+      <string id="continue">Continue</string>
+      <string id="continueresponsive">Continue</string>
+      <string id="exit">Exit</string>
+      <string id="filter">Filter</string>
+      <string id="finish">FINISH</string>
+      <string id="acc_finish">finish</string>
+      <string id="definition">Definition</string>
+      <string id="acc_definition">definition</string>
+      <string id="glossary">Glossary</string>
+      <string id="terms">Terms</string>
+      <string id="outline">Menu</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="next">NEXT</string>
+      <string id="acc_next">next</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="transcript">Notes</string>
+      <string id="bio">Bio</string>
+      <string id="more_info">More info</string>
+      <string id="closed_captions">Captions</string>
+      <string id="acc_pause">pause</string>
+      <string id="acc_play">play</string>
+      <string id="send_an_email">Send an email</string>
+      <string id="prev">PREV</string>
+      <string id="acc_previous">previous</string>
+      <string id="question_list">Question List</string>
+      <string id="acc_replay">replay</string>
+      <string id="resources">Resources</string>
+      <string id="acc_resources">resources</string>
+      <string id="restart">Restart</string>
+      <string id="resume">Resume</string>
+      <string id="search">Search...</string>
+      <string id="acc_search_input">search</string>
+      <string id="search_in">Search in:</string>
+      <string id="search_results">Search Results</string>
+      <string id="acc_skipnavigation">Skip navigation. Press enter to return to the slide.</string>
+      <string id="slide_text_chk">Slide Text</string>
+      <string id="submitall">SUBMIT ALL</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="submit">SUBMIT</string>
+      <string id="acc_submit">submit</string>
+      <string id="acc_volume">volume</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Open Sans">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.6Q2Mu5B8Fyd" displaytext="Untitled Scene" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.6BjaSMr3uJS" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.6OHMOjnv93z" displaytext="Hemostasis is a process by which the body spontaneously stops bleeding and maintains blood in a fluid form. There are two system to help with that.&#xA;&#xA;Which system involving vascular system and platelets, activated by small vessel damage?&#xA;" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.6o0SyAsC3mE" displaytext="Drag and Drop" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.6ZHKzpMG7ix" displaytext="A damage to the vessel, exposes:&#xA;" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.619JN644GQu" displaytext="Normal platelet count is 150,000 to 450,000. &#xA;Where is one-third of its volume stored in the body?&#xA;" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.6KBwFptbvRw" displaytext="Primary hemostasis is the process of platelet plug formation. " expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.68hcR5z5zID" displaytext="Platelet adehesion occurs when platelet attach to collagen in the exposed basement membrane. &#xA;&#xA;Platelets required all of the option to adhere, accept for: &#xA;" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.6aEiQzyDESJ" displaytext="Drag and Drop" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.6e4gLZIPjZv" displaytext="Thrombocytopenia is considered when platelets are low. Bleeding may occur less than or nearly equal to how many platelets?&#xA;" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.6lcoRqUvM8V" displaytext="In evaluation of platelets, Which of these can interfere with platelet accuracy evaluation?&#xA;" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.5lIWJgVDO6p" displaytext="In Amplification of platelets, which substance will recruit more platelets to the site of injury?&#xA;" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.6pTFlJcmI0R" displaytext="In platelets aggregation, Platelets stick to each other using fibrinogen. fibrinogen attaches to platelets at which site?&#xA;" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.6bdS5ONud3K" displaytext="In second hemostasis, tissue factor activates which factor?&#xA;" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.5VxzsKV4PH3" displaytext="In coagulation cascade, all the options are inhibitors of the common pathway, except for:&#xA;" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.5nrMaU75463" displaytext="In coagulation cascade, all the options are activators of the common pathway, except for:&#xA;" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.5fyrV8aeqOO" displaytext="Coagulation cascade - Intrinsic and extrinsic pathways both can activate common pathway. &#xA;&#xA;Organize the common pathway. " expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.5jiskdfQKSB" displaytext="Coagulation cascade &#xA;Organize the intrinsic pathway by dragging the circles in the correct place." expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.5fhPf3Rq70y" displaytext="Coagulation cascade &#xA;Organize the extrinsic pathway by dragging the circles in the correct place. " expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.6frvVqz23QY" displaytext="In coagulation cascade, all the options are activators of the common pathway, except for:&#xA;" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.5hbXejdhSsM" displaytext="Match the common pathway coagulation vocabulary" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.5oMSTLu2Zaz" displaytext="In initiation phase of coagulation,Tissue factor bearing cells interact with which factor?&#xA;" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.6n8aMysc2X8" displaytext="In amplification phase of platelets, which of these activates platelets?&#xA;" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.69uY4lPqfBT" displaytext="In termination phase of coagulation, which of these clotting process initiate a stop of coagulation in order to prevent occlusion of the vessel? &#xA;" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.5y7CZWBon8t" displaytext="Which factor acts on fibrin polymers to create the final cross-linked stable fibrin clot?&#xA;" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.5ylj67kkPer" displaytext="Which factor is activated by thrombin bound to thrombomodulin and is a regulatory inhibitor?&#xA;" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.6iu7B6OrFvZ" displaytext="This is a cofactor that participate conversion of protein C → activated protein C (A P C). &#xA;What is this regulatory factor?" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.63elpyEwvPn" displaytext="Which inactivation factor work as an anticoagulant (plasma protein), and inactivates factor Va – V and VIIa – VII to stop clotting. " expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.5tSPrFOQOmv" displaytext="What inhibits the activator protein C (APC)?" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.6lbvWl4sW9G" displaytext="What factors inhibits the inhibits VII a/T F and X a?" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.6Q9TzFJYZ8A" displaytext="What factors is a direct thrombin inhibitor?" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.67IiGjq7DHX" displaytext="In Fibrinolytic System, Fibrinolytic and antifibrinolytic factors allow blood clots to dissolve.&#xA;&#xA;What is the primary fibrinolytic factor that converts to plasmin through t P A and urokinase-like?" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.6j47JPCsSvX" displaytext="In Fibrinolytic System, Fibrinolytic and antifibrinolytic factors allow blood clots to dissolve.&#xA;&#xA;What Breaks down fibrin clot creating fragments like fibrin split products (F S P’s)?" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.6nYaRnZ5XTv" displaytext="In Fibrinolytic System&#xA;&#xA;A deficiency in fibrinolytic factors can cause which of the options below? " expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.5dfuMlLiLho" displaytext="In Fibrinolytic System&#xA;&#xA;Deficiency of antifibrinolytic factors can cause which of the options below? " expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.66RWKNuybnx" displaytext="Which of these tests measure extrinsic and common pathways?&#xA;Reagent used: tissue factor, platelet phospholipid, and calcium&#xA;&#xA;Measures Warfarin or acute bleeding" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.5XC0gtyhZ4j" displaytext="Screen tests to evaluate bleeding&#xA;&#xA;Which of these tests Screens for intrinsic and common pathways?&#xA;Used to monitor unfractionated heparin" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.6GwuhAJCHjc" displaytext="In this test, Patient plasma is mixed 1:1 with pooled normal plasma and the abnormal PT, APPT test.&#xA;The PNP has to be platelet poor &lt;5,000&#xA; &#xA;What is the rest?" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.64rDSrXl9Ci" displaytext="Mixing studies is used to evaluate abnormal P T and A P T T or other issue going on in circulation. &#xA;&#xA;Corrected repeat P T or A P T T  indicate which of the below?&#xA;" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.6Tlckel7eyr" displaytext="Mixing studies is used to evaluate abnormal P T and A P T T or identify a factor deficiency vs a circulating inhibitor&#xA;A Corrected repeat P T indicate which of the below?&#xA;" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.5c7m8XUnJZ2" displaytext="Mixing studies is used to evaluate abnormal P T and A P T T or identify a factor deficiency vs a circulating inhibitor&#xA;A P T not corrected indicate which option below?&#xA;" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.5YbKdOX6cj3" displaytext="Mixing studies is used to evaluate abnormal P T and A P T T or identify a factor deficiency vs a circulating inhibitor&#xA;Corrected A P T T indicate which of the below?&#xA;" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.5mXQ6NGaeri" displaytext="Mixing studies is used to evaluate abnormal P T and A P T T or identify a factor deficiency vs a circulating inhibitor&#xA;A P T T not corrected indicate which of the below?&#xA;" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.6IVAmnH2VOP" displaytext="Screen tests to evaluate bleeding&#xA;&#xA;PT test is exclusive for determining deficiency in which factor?" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.66flw6NCbsW" displaytext="International normalized ratio (I N R)&#xA;Used to standardize P T reporting for monitoring anticoagulant therapy.&#xA;&#xA;What is the WHO IRP standard value?" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.65fkSJl146l" displaytext="International normalized ratio (I N R)&#xA;&#xA;The closer the P T is to the I R P standard, the more sensitive the reagent. &#xA;What is the International Sensitivity reference value indicating a sensitive response of the reagent thromboplastin, used for testing?" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.5UtNwOwiPqb" displaytext="Coagulation samples drawn into light blue–top tubes, contain: " expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.6aTFw2Porjn" displaytext="If CBC in an EDTA sample is needed a platelet count, how would you proceed?" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.63LMvq2419i" displaytext="Thrombocytopenia is lead by?" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.5uhWffwxztF" displaytext="Thrombocytosis - Platelet count is greater than 450 multiplied by 10⁹/liter. &#xA;What is a primary causes below?" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.6cvY81KdIgm" displaytext="Thrombocytopenia can be related to antibody to platelet products containing H P A-1a, H P A-5, or H P A-15 (rare). &#xA;&#xA;Which condition is it?" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.6e4fbkgnGni" displaytext="Thrombocytopenia can be related to Maternal antibody to infant’s platelets from an earlier pregnancy. &#xA;&#xA;Which condition is it?" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.6RfUKZiKRys" displaytext="Thrombocytopenia that is related to Autoantibody (I g G) against G P II b or III A or G P Ib-IX&#xA;&#xA;Which condition is it?" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.6qzzsIg9tXQ" displaytext="Thrombocytopenia that is related Microangiopathic anemia (M H A)&#xA;Fever, Neurologic symptoms, Visual impairment, Renal dysfunction&#xA;&#xA;Which condition is it?" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.5rFpO8spjkh" displaytext="Thrombocytopenia with Schistocytes and severe anemia, Increased L D H&#xA;Decreased haptoglobin, Hemoglobinuria, Renal dysfunction may occur. &#xA;&#xA;Which condition is it?" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.6NcOquijMMx" displaytext="Thrombocytopenia on a 6 months to 4 years old&#xA;Mimics T T P (no neurologic symptoms) but more severe renal damage&#xA;Renal damage caused by toxin produced by E. coli O157:H7 or Shigella&#xA;&#xA;Which condition is it?" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.6GvkTZMEeIv" displaytext="An acute Idiopathic thrombocytopenic purpura (I T P) would be caused by?" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.6azYVRS2MZY" displaytext="Idiopathic thrombocytopenic purpura (I T P) is caused by a deficiency in" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.6dGTZoRk1q7" displaytext="Secondary to an intrinsic defect of platelets&#xA;Match the platelets defects." expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.6RW6LeErik6" displaytext="Autosomal recessive &#xA;Rare adhesion defect of platelets involving G P I b–IX complex&#xA;&#xA;What condition is it?" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.5pyqZXDVSu7" displaytext="Rare autosomal recessive disorder&#xA;Deficiency or abnormality of G P II b and III a &#xA;Fibrinogen binding to platelets (platelet aggregation)&#xA;&#xA;What condition is it?" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.6e05a6ZX00p" displaytext="Autosomal recessive&#xA;Dense granules deficient&#xA;Results in albinism and hemorrhagic events&#xA;&#xA;What condition is it?" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.5ljOQ6pS2LI" displaytext="Autosomal recessive&#xA;Giant lysosomal granules in neutrophils &#xA;Frequent infections because of impaired phagocytic ability&#xA;Thrombocytopenia&#xA;&#xA;What condition is it?" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.6CJaDQsXZk2" displaytext="Abnormalities due drug-related. Aspirin (most commonly used)&#xA;&#xA;What condition is it?" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.6nf3taGjaLs" displaytext="Which of the options is considered a Extrinsic platelet abnormality?" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.5rEIxKRbCDV" displaytext="Platelets lack alpha granules&#xA;Platelets are gray or blue-gray color in P S&#xA;Large platelet&#xA;Bleeding tendencies&#xA;Bruisability&#xA;&#xA;What condition is it?" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.6QNkNXIK4Z8" displaytext="X-linked recessive disorder &#xA;Severe eczema&#xA;Recurrent infections&#xA;Immune defects&#xA;What condition is it?" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.6SvWWnq51ll" displaytext="Rare disorder&#xA;Skeletal and cardiac abnormalities&#xA;What condition is it?" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.6kBaqIrKjM7" displaytext="Autosomal recessive &#xA;Rare adhesion defect of platelets involving G P I b–IX complex&#xA;&#xA; G P I b–IX is a site for:" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.6p5rOGbSZWV" displaytext="Autosomal dominant, it gets the help of factor VIII to get to peripheral circulation. This condition cause easy bruising, nosebleeds, heavy menses, excessive bleeding after tooth extraction or dental procedures.&#xA;&#xA;What is it?" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.6GaaTEjSgra" displaytext="All options are way to measure vWF protein but which one is the best predictive assay?" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.6rXt7YVSeSs" displaytext="Which one is the subtype of type 2 vWD?" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.6In2wNlNLzc" displaytext="What is the treatment for vWD?" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.6fAiUHWG66h" displaytext="A vascular disorder. &#xA;Platelet disorder can be secondary to which main disorder?&#xA;" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q2Mu5B8Fyd.6mq43RI3KOt" displaytext="Draw from New Question Bank" expand="false" type="slide" />
+          </links>
+        </slidelink>
+      </links>
+    </outline>
+  </nav_data>
+  <resource_data description="" />
+  <transcript_data />
+  <glossary_data />
+</bwFrame>
